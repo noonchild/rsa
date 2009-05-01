@@ -1,9 +1,0 @@
-<!-- app/views/comments/new.html.erb -->
-<h1>New song</h1>
-
-<%= error_messages_for :song %>
-
-<%= render :partial => @song, :locals => {:button_name => "Save New song"} %>
-
-<%= link_to 'Back', songs_path %>
-

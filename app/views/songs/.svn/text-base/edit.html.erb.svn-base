@@ -1,8 +1,0 @@
-<h1>Editing song</h1>
-
-<%= error_messages_for :song %>
-
-<%= render :partial => @song, :locals => {:button_name => "Save Changes"} %>
-
-<%= link_to 'Show', @song %> |
-<%= link_to 'Back', songs_path %>

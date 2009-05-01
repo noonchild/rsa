@@ -1,5 +1,0 @@
-<table width=200><tr><td>
-<% for a in @fans %>
-  <b><%= a.name %></b> has <%= a.fans %> fans.<br>
-<% end %>
-</td></tr></table>

@@ -1,3 +1,0 @@
-<% for a in @pets %>
-  <b><%= a.name %></b> has <%= a.has_pet %> pooches.<br>
-<% end %>

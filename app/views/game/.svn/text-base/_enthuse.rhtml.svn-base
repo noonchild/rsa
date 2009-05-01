@@ -1,9 +1,0 @@
-<div id ="stats">
-enthusiasm:
-<b><div id="enthusiasm" style="display: inline; "><%= @state.current_enthusiasm %></div><br></b>
-cash:
-<b><div style="display: inline;">$<div id="cash" style="display: inline; vertical-align: top;"><%= @thisguy.cash %></div></div></b><br>
-burgers:
-<b><div id="enthusiasm" style="display: inline; "><%= @thisguy.burgers %></div><br></b>
- you have <b><div id="enthusiasm" style="display: inline; "><%= @thisguy.fans %></div></b> adoring fans.
-</div>

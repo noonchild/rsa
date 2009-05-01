@@ -1,3 +1,0 @@
-<% for a in @skill %>
-  <b><%= a.name %></b>: <%= number_with_precision(a.skill) %><br>
-<% end %>

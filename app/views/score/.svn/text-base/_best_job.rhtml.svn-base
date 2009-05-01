@@ -1,3 +1,0 @@
-<% for a in @best_job %>
-  <b><%= a.name %></b>: tier <%= a.has_job %><br>
-<% end %>

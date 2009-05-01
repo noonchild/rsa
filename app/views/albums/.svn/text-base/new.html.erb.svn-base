@@ -1,8 +1,0 @@
-<h1>New album</h1>
-
-<%= error_messages_for :album %>
-
-<%= render :partial => @album, :locals => {:button_name => "Save New album"} %>
-
-<%= link_to 'Back', albums_path %>
-

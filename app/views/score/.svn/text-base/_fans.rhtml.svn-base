@@ -1,3 +1,0 @@
-<% for a in @fans %>
-  <b><%= a.name %></b> has <%= a.fans %> fans.<br>
-<% end %>

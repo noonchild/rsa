@@ -1,3 +1,0 @@
-<% for a in @charisma %>
-  <b><%= a.name %></b>: <%= number_with_precision(a.charisma) %><br>
-<% end %>

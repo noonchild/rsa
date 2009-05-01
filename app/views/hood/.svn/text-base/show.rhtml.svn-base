@@ -1,9 +1,0 @@
-
-<hr>
-<b>Locations in <%=h @hood.name %></b>
-<% for location in @hood.locations %>
-  <p><%=h location.name %></p>
-<% end %>
-
-<%= link_to 'Edit', :action => 'edit', :id => @hood %> |
-<%= link_to 'Back', :action => 'list' %>

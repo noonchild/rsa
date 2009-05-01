@@ -1,8 +1,0 @@
-<%= error_messages_for 'hood' %>
-
-<!--[form:hood]-->
-<p><label for="hood_name">Name</label><br/>
-<%= text_field 'hood', 'name'  %></p>
-
-<!--[eoform:hood]-->
-

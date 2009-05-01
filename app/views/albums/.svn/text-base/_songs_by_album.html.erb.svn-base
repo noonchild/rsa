@@ -1,8 +1,0 @@
-<% if album_id %>
-  <h3>Songs</h3>
-  <table>
-    <tr><td align="left">
-  <%= Album.find(album_id).songs.collect{|s| s.name}.join('</td></tr><tr><td align="left">') %>
-	</td></tr>
-  </table>
-<% end %>

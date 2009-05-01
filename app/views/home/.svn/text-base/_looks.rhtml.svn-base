@@ -1,5 +1,0 @@
-<table width=165><tr><td>
-<% for a in @looks %>
-  <b><%= a.name %></b>: <%= number_with_precision(a.looks) %><br>
-<% end %>
-</td></tr></table>

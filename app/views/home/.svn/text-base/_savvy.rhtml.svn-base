@@ -1,5 +1,0 @@
-<table width=200><tr><td>
-<% for a in @savvy %>
-  <b><%= a.name %></b>: <%= number_with_precision(a.savvy) %><br>
-<% end %>
-</td></tr></table>

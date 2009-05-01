@@ -1,9 +1,0 @@
-<h2>New</h2>
-<p style="color: green; dispaly:inline"><%= flash[:notice] %></p>
-<% form_tag :action => 'create' do %>
-  <p><label for="actor_name">Rockstar Name</label><br/>
-  <%= text_field 'actor', 'name'  %></p>
-  <%= submit_tag "Create" %>
-<% end %>
-
-<%= link_to 'Back', :action => 'list' %>
