@@ -1,0 +1,37 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  title: "Home"
+  link: "Home"
+  linkorder: 1
+  body: "<div align='center'><img src='http://kristeraxel.com/art/rockstaralley2_99.jpg' border=0><br>
+    <br>
+    <a href='http://www.last.fm/label/RockStarAlley/playlists/824089' target='_blank'><b>RockStarAlley radio</b></a>
+    <p><a href='http://feeds.feedburner.com/RockStarAlley' rel='alternate' type='application/rss+xml'><img src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' alt='' style='vertical-align:middle;border:0'/></a>&nbsp;<a href='http://feeds.feedburner.com/RockStarAlley' rel='alternate' type='application/rss+xml'>Subscribe in a reader</a></p>
+    <br>
+    <a href='http://localhost:3000/session/'><b><b>Play the Game</b></b></a><br><br>
+  "
+two:
+  id: 2
+  title: "About"
+  link: "About"
+  linkorder: 2
+  body: "
+  <b>Music + Games = Website</b><br>
+  <BR>
+  <div align='center'><img src='http://kristeraxel.com/art/rsalogo_500.png'></div><br>
+  "
+three:
+  id: 3
+  title: "Developer Notes"
+  link: "Notes"
+  linkorder: 3
+  body: "
+  <b>We are in Alpha right now</b><br>
+  <BR>
+  <div align='center'>
+  RockStarAlley.com is the brainchild of Krister Axel. This is the first game of it's kind to be written for <b>Ruby on Rails</b>.
+  Games of this sort are commonly referred to as PBBG, which stands for <b>P</b>ersistent <b>B</b>rowser-<b>B</b>ased <b>G</b>ame. There is a fair amount of AJAX going on here as well, which is part of what makes RockStarAlley such a revolutionary experience. Just sign up for a free account, and have at it. Thanks for playing RockStarAlley.<br><br>
+  See you at a gig!
+  </div><br>
+"

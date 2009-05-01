@@ -1,0 +1,68 @@
+8
+
+dir
+48
+https://rockstaralley.sourcerepo.com/rockstaralley/RockStarAlley/trunk/db/fixtures/production
+https://rockstaralley.sourcerepo.com/rockstaralley/RockStarAlley
+
+
+
+2009-03-03T05:50:49.756668Z
+38
+rockstar
+
+
+svn:special svn:externals svn:needs-lock
+
+pages.yml
+file
+
+
+
+
+2008-04-14T03:52:04.000000Z
+f33dd39de3b622be1108ac037a412b22
+2009-03-03T05:50:49.756668Z
+38
+rockstar
+has-props
+
+locations.yml
+file
+
+
+
+
+2009-03-03T05:51:09.000000Z
+c75d6569a4851fc011a7a5ccf56e9d7a
+2009-03-03T05:50:49.756668Z
+38
+rockstar
+has-props
+
+options.yml
+file
+
+
+
+
+2008-04-14T03:52:04.000000Z
+d3ca1d4e0b80456509e9341dc620cf50
+2009-03-03T05:50:49.756668Z
+38
+rockstar
+has-props
+
+hoods.yml
+file
+
+
+
+
+2008-04-14T03:52:04.000000Z
+13a26b2f37699c7cbdcd47fdfa1ea127
+2009-03-03T05:50:49.756668Z
+38
+rockstar
+has-props
+

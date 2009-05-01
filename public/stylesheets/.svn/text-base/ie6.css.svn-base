@@ -1,0 +1,9 @@
+/** Styles for Stupid internet explorer 6 **/
+
+
+/* PNG TRANSPARENCY FIX.  [Add specific ids/classes as necessary] */
+div, img, a, input, h1, h5, #logos li
+  { behavior: url(/stylesheets/iepngfix.htc); }
+
+.close_bulletin a
+ { behavior: none !important; background:none !important; padding-right:0 !important; }

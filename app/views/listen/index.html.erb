@@ -1,0 +1,18 @@
+
+<% x = Playlist.find(:first, :order => "id DESC") %>
+<% if x %>
+<div align="center">
+	<object type="application/x-shockwave-flash" width="740" height="220"
+	data="mod/xspf_player.swf?playlist_url=playlists/<%=x.filename%>&autoplay=true">
+	<param name="movie" 
+	value="mod/xspf_player.swf?playlist_url=playlists/<%=x.filename%>&autoplay=true" />
+	</object>
+</div>
+<% end %>
+<% if admin? %>
+<%= link_to "reset", resetp_path %>
+<% else %>
+<div align="center">
+<%= render :partial => "shared/buy_banner_1", :locals => {:show_bottom => 1} %>
+</div>
+<% end %>

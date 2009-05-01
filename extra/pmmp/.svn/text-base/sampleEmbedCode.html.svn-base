@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Sample Flash Music Player Embed Code</title>
+</head>
+<body>
+
+<!--
+INSTRUCTIONS
+* Change autoPlay to "yes" if you want the music track to start automatically once loaded
+
+More instructions at:
+http://www.premiumbeat.com/flash_resources/free_flash_music_player/multiple_tracks_mp3_player_menu.php
+
+-->
+
+<!-- Begin Copy/Paste -->
+
+<script type="text/javascript" src="swfobject.js"></script>
+		
+<div id="flashPlayer">
+  This text will be replaced by the flash music player.
+</div>
+
+<script type="text/javascript">
+   var so = new SWFObject("playerMultipleList.swf", "mymovie", "295", "200", "7", "#FFFFFF");  
+   so.addVariable("autoPlay","no")
+   so.addVariable("playlistPath","playlist.xml")
+   so.write("flashPlayer");
+</script>
+
+<!-- End Copy/Paste -->
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+  <div id="linktable">
+  <table align="right"><tr>
+    <% for p in @pages %>
+      <td>  <%= link_to p.link, :action => 'view', :id => p %></td>
+    <% end %>
+</tr></table>
+  </div>
+<table width = 500><tr><td>
+<div id="logo1" style="display: inline;">
+	RockStarAlley
+</div>
+  <div id="logo4"><%= rsa_subtitle %></div>
+</td>
+</tr></table>

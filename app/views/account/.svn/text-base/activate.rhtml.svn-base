@@ -1,0 +1,7 @@
+<p style="color: green"><%= flash[:notice] %>
+</br>
+Please click to activate your account.</br>
+  <% form_tag :controller => 'account', :action => 'do_activation', :acode => @activation_code do %>
+  <%= submit_tag "Shine On" %>
+  <% end %>
+</br></p>

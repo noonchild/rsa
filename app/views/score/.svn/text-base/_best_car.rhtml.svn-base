@@ -1,0 +1,3 @@
+<% for a in @best_car %>
+  <b><%= a.name %></b>: tier <%= a.has_car %><br>
+<% end %>

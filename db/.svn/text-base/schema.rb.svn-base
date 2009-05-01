@@ -1,0 +1,55 @@
+# This file is auto-generated from the current state of the database. Instead of editing this file, 
+# please use the migrations feature of Active Record to incrementally modify your database, and
+# then regenerate this schema definition.
+#
+# Note that this schema.rb definition is the authoritative source for your database schema. If you need
+# to create the application database on another system, you should be using db:schema:load, not running
+# all the migrations from scratch. The latter is a flawed and unsustainable approach (the more migrations
+# you'll amass, the slower it'll run and the greater likelihood for issues).
+#
+# It's strongly recommended to check this file into your version control system.
+
+ActiveRecord::Schema.define(:version => 20090214222356) do
+
+  create_table "albums", :force => true do |t|
+    t.string   "name"
+    t.string   "dpath"
+    t.text     "note"
+    t.string   "gpath"
+    t.boolean  "active"
+    t.integer  "views"
+    t.string   "spath"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "release_year"
+    t.datetime "release_date"
+    t.boolean  "selected"
+  end
+
+  create_table "playlists", :force => true do |t|
+    t.string   "name"
+    t.string   "filename"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "songs", :force => true do |t|
+    t.string   "dname"
+    t.string   "name"
+    t.string   "filename"
+    t.string   "subdir"
+    t.text     "lyrics"
+    t.text     "note"
+    t.boolean  "has_audio"
+    t.boolean  "active"
+    t.integer  "views"
+    t.integer  "album_id"
+    t.float    "digi_qot"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "release_year"
+    t.datetime "release_date"
+    t.boolean  "selected"
+  end
+
+end

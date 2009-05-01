@@ -1,0 +1,5 @@
+<table width=200><tr><td>
+<% for a in @skill %>
+  <b><%= a.name %></b>: <%= number_with_precision(a.skill) %><br>
+<% end %>
+</td></tr></table>

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/rockstaralley/RockStarAlley/!svn/ver/30/trunk/app/models
+END
+user_notifier.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/user_notifier.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/user.rb
+END
+notifier.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/notifier.rb
+END
+album.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rockstaralley/RockStarAlley/!svn/ver/1/trunk/app/models/album.rb
+END
+state.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/state.rb
+END
+playlist.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rockstaralley/RockStarAlley/!svn/ver/1/trunk/app/models/playlist.rb
+END
+user_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/user_observer.rb
+END
+song.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rockstaralley/RockStarAlley/!svn/ver/9/trunk/app/models/song.rb
+END
+actor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rockstaralley/RockStarAlley/!svn/ver/30/trunk/app/models/actor.rb
+END
+location.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/location.rb
+END
+option.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/option.rb
+END
+hood.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/hood.rb
+END
+contact.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/contact.rb
+END
+page.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/models/page.rb
+END

@@ -1,0 +1,10 @@
+<% if @fbid == "3344222255" %>
+  <% redirect_to error_url %>
+<% end %>
+<p>
+<%= logged_in? ? "What's up #{current_user.login}?" : nil %>
+</p>
+<p><%= logged_in? ? "Press play to get started." : nil %></p>
+<p>
+Are you ready to rock?	
+</p>

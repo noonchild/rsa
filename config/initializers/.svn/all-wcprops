@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rockstaralley/RockStarAlley/!svn/ver/1/trunk/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/rockstaralley/RockStarAlley/!svn/ver/1/trunk/config/initializers/inflections.rb
+END
+new_rails_defaults.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/rockstaralley/RockStarAlley/!svn/ver/1/trunk/config/initializers/new_rails_defaults.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/rockstaralley/RockStarAlley/!svn/ver/1/trunk/config/initializers/mime_types.rb
+END

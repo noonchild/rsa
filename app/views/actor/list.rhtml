@@ -1,0 +1,14 @@
+<table align="center">
+  <tr>
+    <td>
+<% if @actor %>
+<%= link_to 'Set up your Rockstar', :action => 'change', :id => @actor %>
+<% end %>
+    </td>
+  </tr>
+</table>
+
+<br />
+<% if not @actor %>
+<%= link_to 'Set up a new Rockstar', :action => 'new' %>
+<% end %>

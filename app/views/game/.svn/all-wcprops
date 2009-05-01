@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/rockstaralley/RockStarAlley/!svn/ver/39/trunk/app/views/game
+END
+_enthuse.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/game/_enthuse.rhtml
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/game/list.rhtml
+END
+_stats.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/rockstaralley/RockStarAlley/!svn/ver/70/trunk/app/views/game/_stats.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/game/_form.rhtml
+END
+play.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rockstaralley/RockStarAlley/!svn/ver/70/trunk/app/views/game/play.rhtml
+END

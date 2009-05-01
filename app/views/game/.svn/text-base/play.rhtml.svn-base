@@ -1,0 +1,57 @@
+
+<% i=0 %>
+  <div id="location_box" align="center">
+<% for l in @hood.locations %>
+
+		<% i=i+1 %>
+		<% if l == @location then %>
+		  <% lmain = l.name %>
+		  <%= image_tag("http://www.kristeraxel.com/art/rockstaralley2_41.png") %>
+		<% else %>
+          <%= link_to image_tag("#{l.graflink}", :border=>0, :title => l.name), :action => 'move', :id => l %>
+		<% end %>
+<% end %></div><b><%= lmain %></b>
+<div id="myoptions">
+<% for o in @options -%>
+	<%= link_to_remote( image_tag("#{o.graflink}", :border => 0, :title => o.description), {
+	    :update => "current_message",
+	    :url =>{ :action => o.link, :controller => o.controller },
+	    :complete => {"document.getElementById('message_answer').style.display = 'block'; document.getElementById('current_message').style.display = 'block';Element.update('option_message','#{o.name}');",
+	    remote_function(:update => 'x', 
+				 :url => { :action => :set_option, :id => o })}
+		         },{
+		:onmouseover => {"Element.update('option_preview','#{o.name}'); document.getElementById('option_message').style.display = 'none'; ", visual_effect(:fade,"flashmessage", :duration => 4 )},
+		:onmouseout => "Element.update('option_preview','');document.getElementById('option_message').style.display = 'block';"		}
+		) -%>
+<% end -%>
+    </div>
+<table align="center"><tr><td width=380>
+<b><div id=option_preview align="center"></div></b>
+<b><div id=option_message style="display: inline;" align="center"></div></b>
+	<div id=current_message style="display:none" align="center"></div>
+	<div id=message_answer style="display:none" align="center">
+    <p>
+		  <%= link_to "say yes", :action => :optin, :onclick => "document.getElementById('ajaxsubmit').style.display = 'inline';" %>
+	
+	    <div id="ajaxsubmit" style="display:none;"><%= image_tag("http://digbox.net/art/ajax-loader.gif", :border=>0) %>
+		</div>
+	</p>
+</div><div id="ajaxsubmit" style="display:none;"><%= image_tag("http://digbox.net/art/ajax-loader.gif", :border=>0) %></div>
+					</td></tr></table>
+<hr width=300><em>Places to go, things to do</em><br>
+   
+
+<table align="center">
+  <tr><td>
+    <% for h in Hood.find(:all) %>
+      <% if h != @hood then %>
+        <th><%= link_to image_tag("#{h.graflink}", :border=>0), {:action => 'move_hood', :id => h}, :onclick => visual_effect(:Fade,"enthusiasm") %>
+		<br>
+        <%= h.name %></th>
+	  <% end %>
+	<% end %>
+	<!--links -->
+	</td><td>
+	    <%= render :partial => 'form' %>
+	</td></tr>
+</table>

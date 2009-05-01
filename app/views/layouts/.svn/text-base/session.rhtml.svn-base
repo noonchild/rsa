@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<%= stylesheet_link_tag '/stylesheets/application.css', :media => 'all' %>
+  <title>RockStarAlley login</title>
+</head>
+<body>
+	<div id="container">
+	  <div id="page" style="display: inline;">
+	    <div id="content" style="display: inline;" align="center">
+		  <h3>RockStarAlley login</h3><hr>
+		  <table><tr><td>
+		  <div align="center" >
+			<%= link_to image_tag("http://kristeraxel.com/art/rockstaralley2_99.jpg", :border=>0), :controller => 'home' %><br>
+			<%= link_to 'play', :controller => 'game', :action => 'play' %> | 
+			<%= link_to 'new user', :controller => 'users', :action => 'new' %> | 
+			<%= logged_in? ? link_to('log out', session_url, :method => :delete) : link_to('Log in', session_url) %>
+			</div>
+			
+		<p style="color: green"><%= flash[:notice] %></p>
+		<%= yield  %>
+	      <p><td></tr>
+		  </table>
+	    </div>
+	    <br style="clear:both;" />
+	  </div>
+	<%= render(:partial => "layouts/footer")%>
+	</div>	
+
+</body>
+</html>

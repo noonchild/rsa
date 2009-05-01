@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+        <playlist version='0' xmlns = 'http://xspf.org/ns/0/'>
+        <title>InMusic.org plays Krister Axel</title>
+          <trackList>
+<track>
+              <location>/mp3/2009021204.mp3</location>
+              <image></image>
+              <annotation>Georgia On My Mind by Krister Axel (from the album Still Feels Broken)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021202.mp3</location>
+              <image></image>
+              <annotation>Stillfeelsbroken by Krister Axel (from the album Still Feels Broken)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021212.mp3</location>
+              <image>../images/covers/ft.jpg</image>
+              <annotation>The Hard Way by Krister Axel (from the album Fast Train)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021221.mp3</location>
+              <image>../images/covers/ft.jpg</image>
+              <annotation>Les Yeux Gris by Krister Axel (from the album Fast Train)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021217.mp3</location>
+              <image>../images/covers/aar.jpg</image>
+              <annotation>Something Beautiful by Krister Axel (from the album Arms Around The River)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021239.mp3</location>
+              <image>../images/covers/aar.jpg</image>
+              <annotation>Impeach Bush by Krister Axel (from the album Arms Around The River)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021236.mp3</location>
+              <image>../images/covers/pfn.jpg</image>
+              <annotation>Sugarbabe by Krister Axel (from the album Permanent Friday Night)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021208.mp3</location>
+              <image>../images/covers/pfn.jpg</image>
+              <annotation>As Good As Love by Krister Axel (from the album Permanent Friday Night)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021215.mp3</location>
+              <image>../images/covers/humanity.jpg</image>
+              <annotation>Trajic by Krister Axel (from the album Humanity)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021245.mp3</location>
+              <image>../images/covers/humanity.jpg</image>
+              <annotation>Brooklynps by Krister Axel (from the album Humanity)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021222.mp3</location>
+              <image></image>
+              <annotation>Georgia Rain by Krister Axel (from the album Swexico)</annotation>
+             </track>
+<track>
+              <location>/mp3/2009021224.mp3</location>
+              <image></image>
+              <annotation>Second Place by Krister Axel (from the album Swexico)</annotation>
+             </track>
+
+          </trackList>
+        </playlist>
+          

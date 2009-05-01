@@ -1,0 +1,11 @@
+<h1>Sleepy <%= @thisguy.name %></h1>
+
+<% if @state.id? %>
+ <%= link_to 'Sleep it off', :action => 'reset_enthuse', :id =>  @thisguy %>.
+ <%= link_to 'Buy a burrito', :action => 'reset_enthuse', :id =>  @thisguy %>.
+<% end %>
+
+<br><br>
+<%= link_to 'go back', :controller => 'game', :action => 'return' %>
+<br>
+

@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+LosAngeles:
+  id: 1
+  name: "New York"
+  graflink: "http://www.kristeraxel.com/art/hat1.png"
+NewYork:
+  id: 2
+  name: "Los Angeles"
+  graflink: "http://www.kristeraxel.com/art/globe2.png"
+Nashville:
+  id: 3
+  name: "Nashville"
+  graflink: "http://www.kristeraxel.com/art/globe4.png"

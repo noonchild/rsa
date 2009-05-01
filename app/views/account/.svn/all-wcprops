@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/account
+END
+activate.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/account/activate.rhtml
+END
+signup.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/account/signup.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/account/index.rhtml
+END
+login.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/account/login.rhtml
+END
+logout.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/rockstaralley/RockStarAlley/!svn/ver/23/trunk/app/views/account/logout.rhtml
+END

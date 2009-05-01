@@ -1,0 +1,19 @@
+<div align="center">
+<% if @skip_graphic == 0 %><img src="../images/roots_radio2.gif"><br><% end %>
+<% if @x %>
+<div align="center">
+	<object type="application/x-shockwave-flash" width="540" height="220"
+	data="../mod/xspf_player.swf?playlist_url=../playlists/<%=@x.filename%>&autoplay=true">
+	<param name="movie" 
+	value="../mod/xspf_player.swf?playlist_url=../playlists/<%=@x.filename%>&autoplay=true" />
+	</object>
+</div>
+<% end %>
+<% if @skip_graphic == 0 %>
+<br>
+<%= render :partial => "shared/buy_banner_1", :locals => {:show_bottom => 1} %>
+<% else %>
+<br>
+<%= render :partial => "shared/buy_banner_1", :locals => {:show_bottom => 0} %>
+<% end %>
+</div>
